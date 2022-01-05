@@ -1,0 +1,10 @@
+_G.Bin = true
+while _G.Bin do
+    wait(1)
+
+for i,v in pairs(workspace["001_Lots"]:GetDescendants()) do
+if v:IsA("ClickDetector") then
+fireclickdetector(v)
+end
+end
+end
